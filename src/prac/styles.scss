@@ -1,0 +1,155 @@
+/* .node__root {
+  stroke: none !important;
+}
+.node__branch {
+  stroke: none !important;
+}
+.node__leaf {
+  stroke: none !important;
+} */
+$fireColor: rgb(255, 80, 0);
+$fireColorT: rgba(255, 80, 0, 0);
+$dur: 1s;
+$blur: 0.02em;
+$fireRad: 3em;
+$parts: 50;
+$partSize: 5em;
+
+body {
+  // background-color: rgb(48, 8, 8);
+  background: #800909;
+  margin: 0;
+  opacity: 50;
+}
+.fire {
+  font-size: 24px;
+  filter: blur($blur);
+  -webkit-filter: blur($blur);
+  margin: 3em auto 0 auto;
+  position: relative;
+  width: 10em;
+  height: 12em;
+}
+.linkBase {
+  stroke: #ccc !important;
+}
+
+.particle {
+  animation: rise $dur ease-in infinite;
+  background-image: radial-gradient($fireColor 20%, $fireColorT 70%);
+  border-radius: 50%;
+  mix-blend-mode: screen;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  width: $partSize;
+  height: $partSize;
+  // spread particles out in time and x-position to get desired effect
+  @for $p from 1 through $parts {
+    &:nth-of-type(#{$p}) {
+      animation-delay: $dur * random();
+      left: calc((100% - #{$partSize}) * #{($p - 1) / $parts});
+    }
+  }
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(0) scale(1);
+  }
+  25% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10em) scale(0);
+  }
+}
+
+.snowflake {
+  --size: 1vw;
+  width: var(--size);
+  height: var(--size);
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -5vh;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translate3d(var(--left-ini), 0, 0);
+  }
+  100% {
+    transform: translate3d(var(--left-end), 110vh, 0);
+  }
+}
+
+@for $i from 1 through 50 {
+  .snowflake:nth-child(#{$i}) {
+    --size: #{random(5) * 0.2}vw;
+    --left-ini: #{random(20) - 10}vw;
+    --left-end: #{random(20) - 10}vw;
+    left: #{random(100)}vw;
+    animation: snowfall #{5 + random(10)}s linear infinite;
+    animation-delay: -#{random(10)}s;
+  }
+}
+
+/* added small blur every 6 snowflakes*/
+.snowflake:nth-child(6n) {
+  filter: blur(1px);
+}
+
+/***/
+
+#youtube {
+  z-index: 2;
+  display: block;
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: red;
+  border-radius: 50% / 11%;
+  transition: transform 0.5s;
+}
+
+#youtube:hover,
+#youtube:focus {
+  transform: scale(1.1);
+}
+
+#youtube::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 7.5%;
+  left: -6%;
+  width: 112%;
+  height: 85%;
+  background: red;
+  border-radius: 9% / 50%;
+}
+
+#youtube::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  width: 45px;
+  height: 30px;
+  border: 15px solid transparent;
+  box-sizing: border-box;
+  border-left: 30px solid white;
+}
+
+#youtube span {
+  font-size: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}

@@ -1,0 +1,185 @@
+{
+  "name": "Tyrell",
+  "attributes": null,
+  "children": [
+    {
+      "characterId": null,
+      "name": "Mace Tyrell",
+      "attributes": {
+        "characterId": "fa0ce1cd-b250-4ce5-936a-1dfe927f8404",
+        "characterName": "Mace Tyrell",
+        "houseName": "Tyrell",
+        "parents": null,
+        "siblings": null,
+        "parentOf": ["Margaery Tyrell", "Loras Tyrell"],
+        "marriedEngaged": null,
+        "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTcyZWFjZjItYmI4NS00ZDE2LTg4Y2YtYWJkYWI5MWJlNWFjXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+        "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTcyZWFjZjItYmI4NS00ZDE2LTg4Y2YtYWJkYWI5MWJlNWFjXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+        "characterLink": "/character/ch0384328/",
+        "actorName": "Roger Ashton-Griffiths",
+        "actorLink": "/name/nm0004355/",
+        "nickname": "asdf",
+        "royal": true,
+        "killed": null,
+        "killedBy": ["Cersei Lannister"],
+        "favourite": false
+      },
+      "children": [
+        {
+          "characterId": null,
+          "name": "Margaery Tyrell",
+          "attributes": {
+            "characterId": "65ceaf1b-cb00-41cb-b1d8-91d1e0e1efd6",
+            "characterName": "Margaery Tyrell",
+            "houseName": "Tyrell",
+            "parents": ["Mace Tyrell"],
+            "siblings": ["Loras Tyrell"],
+            "parentOf": null,
+            "marriedEngaged": [
+              "Renly Baratheon",
+              "Joffrey Baratheon",
+              "Tommen Baratheon"
+            ],
+            "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzODQ1MDg3NV5BMl5BanBnXkFtZTcwODA4NDk4OQ@@._V1._SX100_SY140_.jpg",
+            "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzODQ1MDg3NV5BMl5BanBnXkFtZTcwODA4NDk4OQ@@._V1_.jpg",
+            "characterLink": "/character/ch0251974/",
+            "actorName": "Natalie Dormer",
+            "actorLink": "/name/nm1754059/",
+            "nickname": "ade",
+            "royal": false,
+            "killed": null,
+            "killedBy": ["Cersei Lannister"],
+            "favourite": false
+          },
+          "children": null
+        },
+        {
+          "characterId": null,
+          "name": "Loras Tyrell",
+          "attributes": {
+            "characterId": "37d2389e-09f8-43bf-a8cc-e9f4122fb2e6",
+            "characterName": "Loras Tyrell",
+            "houseName": "Tyrell",
+            "parents": ["Mace Tyrell"],
+            "siblings": ["Margaery Tyrell"],
+            "parentOf": null,
+            "marriedEngaged": null,
+            "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzcwNDAxZGMtODU1Mi00YzA2LWJhMzYtN2FjZjg2YWZlMTQ4XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+            "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzcwNDAxZGMtODU1Mi00YzA2LWJhMzYtN2FjZjg2YWZlMTQ4XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+            "characterLink": "/character/ch0231428/",
+            "actorName": "Finn Jones",
+            "actorLink": "/name/nm3645691/",
+            "nickname": null,
+            "royal": false,
+            "killed": null,
+            "killedBy": ["Cersei Lannister"],
+            "favourite": false
+          },
+          "children": null
+        }
+      ]
+    },
+    {
+      "characterId": null,
+      "name": "Olenna Tyrell",
+      "attributes": {
+        "characterId": "21ca275b-bcd2-4fa5-9149-7af277f2fb11",
+        "characterName": "Olenna Tyrell",
+        "houseName": "Tyrell",
+        "parents": null,
+        "siblings": null,
+        "parentOf": ["Mace Tyrell"],
+        "marriedEngaged": null,
+        "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMjgwOTQ3Nl5BMl5BanBnXkFtZTcwMjE2NzE5OQ@@._V1._SX100_SY140_.jpg",
+        "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMjgwOTQ3Nl5BMl5BanBnXkFtZTcwMjE2NzE5OQ@@._V1_SY1000_CR0,0,662,1000_AL_.jpg",
+        "characterLink": "/character/ch0010188/",
+        "actorName": "Diana Rigg",
+        "actorLink": "/name/nm0001671/",
+        "nickname": null,
+        "royal": false,
+        "killed": ["Joffrey Baratheon"],
+        "killedBy": ["Jaime Lannister"],
+        "favourite": false
+      },
+      "children": [
+        {
+          "characterId": null,
+          "name": "Mace Tyrell",
+          "attributes": {
+            "characterId": "fa0ce1cd-b250-4ce5-936a-1dfe927f8404",
+            "characterName": "Mace Tyrell",
+            "houseName": "Tyrell",
+            "parents": null,
+            "siblings": null,
+            "parentOf": ["Margaery Tyrell", "Loras Tyrell"],
+            "marriedEngaged": null,
+            "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTcyZWFjZjItYmI4NS00ZDE2LTg4Y2YtYWJkYWI5MWJlNWFjXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+            "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTcyZWFjZjItYmI4NS00ZDE2LTg4Y2YtYWJkYWI5MWJlNWFjXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+            "characterLink": "/character/ch0384328/",
+            "actorName": "Roger Ashton-Griffiths",
+            "actorLink": "/name/nm0004355/",
+            "nickname": null,
+            "royal": false,
+            "killed": null,
+            "killedBy": ["Cersei Lannister"],
+            "favourite": false
+          },
+          "children": [
+            {
+              "characterId": null,
+              "name": "Margaery Tyrell",
+              "attributes": {
+                "characterId": "65ceaf1b-cb00-41cb-b1d8-91d1e0e1efd6",
+                "characterName": "Margaery Tyrell",
+                "houseName": "Tyrell",
+                "parents": ["Mace Tyrell"],
+                "siblings": ["Loras Tyrell"],
+                "parentOf": null,
+                "marriedEngaged": [
+                  "Renly Baratheon",
+                  "Joffrey Baratheon",
+                  "Tommen Baratheon"
+                ],
+                "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzODQ1MDg3NV5BMl5BanBnXkFtZTcwODA4NDk4OQ@@._V1._SX100_SY140_.jpg",
+                "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzODQ1MDg3NV5BMl5BanBnXkFtZTcwODA4NDk4OQ@@._V1_.jpg",
+                "characterLink": "/character/ch0251974/",
+                "actorName": "Natalie Dormer",
+                "actorLink": "/name/nm1754059/",
+                "nickname": null,
+                "royal": false,
+                "killed": null,
+                "killedBy": ["Cersei Lannister"],
+                "favourite": false
+              },
+              "children": null
+            },
+            {
+              "characterId": null,
+              "name": "Loras Tyrell",
+              "attributes": {
+                "characterId": "37d2389e-09f8-43bf-a8cc-e9f4122fb2e6",
+                "characterName": "Loras Tyrell",
+                "houseName": "Tyrell",
+                "parents": ["Mace Tyrell"],
+                "siblings": ["Margaery Tyrell"],
+                "parentOf": null,
+                "marriedEngaged": null,
+                "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzcwNDAxZGMtODU1Mi00YzA2LWJhMzYtN2FjZjg2YWZlMTQ4XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+                "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzcwNDAxZGMtODU1Mi00YzA2LWJhMzYtN2FjZjg2YWZlMTQ4XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+                "characterLink": "/character/ch0231428/",
+                "actorName": "Finn Jones",
+                "actorLink": "/name/nm3645691/",
+                "nickname": null,
+                "royal": false,
+                "killed": null,
+                "killedBy": ["Cersei Lannister"],
+                "favourite": false
+              },
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
