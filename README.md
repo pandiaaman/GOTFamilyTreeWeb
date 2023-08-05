@@ -1,3 +1,10 @@
+##GOT project : FAMILY TREE
+this project is utilizing React-d3-tree library with Spring boot backend
+We are using axios for communicating to the backend.
+Have fun exploring!
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
